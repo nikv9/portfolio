@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
 
-*{
-  margin: 0;
-}
 body{
-  background: linear-gradient(180deg, #030c24,black);
+  background: linear-gradient(180deg, #0a0226,#000000);
   color: white;
   letter-spacing: .1rem;
   font-family: "Open Sans", sans-serif;

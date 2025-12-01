@@ -1,36 +1,50 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import nikImg from "../../assets/nik.jpg";
+import resumePDF from "../../assets/resume.pdf";
+
 export default function Intro() {
   return (
-    <section className="grid md:grid-cols-2 gap-6 items-center py-8">
-      <div>
-        <h2 className="text-3xl font-bold mb-3">Hi — I'm Nikhil.</h2>
-        <p className="text-gray-600 dark:text-gray-300 mb-4">
-          I build clean, fast, and responsive web applications using React,
-          Node.js, and MongoDB.
+    <section className="py-8">
+      <div className="flex flex-col items-center">
+        <img
+          src={nikImg}
+          alt="Nikhil"
+          className="w-30 h-30 object-cover rounded-full mb-4 shadow-lg"
+        />
+
+        <h2 className="text-2xl font-bold mb-3">Hi, I'm Nikhil.</h2>
+
+        <p className="text-gray-600 text-sm mb-4 text-center">
+          Full Stack MERN Developer with 2+ years of experience building modern
+          and scalable web applications.
         </p>
-        <div className="flex items-center gap-3">
+
+        <div className="flex items-center gap-3 mb-4 text-sm">
           <a
-            href="#projects"
+            href={resumePDF}
+            download="Nikhil_Kumar_Resume.pdf"
             className="px-4 py-2 bg-blue-600 text-white rounded-md"
           >
-            See projects
-          </a>
-          <a
-            href="mailto:youremail@example.com"
-            className="px-4 py-2 border border-gray-300 rounded-md"
-          >
-            Get in touch
+            Download CV
           </a>
         </div>
-      </div>
 
-      <div className="flex justify-center md:justify-end">
-        <div className="w-56 h-56 rounded-2xl bg-linear-to-tr from-blue-400 to-indigo-600 shadow-lg flex items-center justify-center text-white p-4 text-center">
-          <div>
-            <div className="text-xl font-semibold">React • MERN</div>
-            <div className="text-sm opacity-90 mt-2">
-              Interactive UIs • REST & GraphQL • Responsive
-            </div>
-          </div>
+        <div className="flex items-center gap-4 mt-2 text-sm">
+          <a
+            href="https://github.com/nikv9"
+            target="_blank"
+            className="flex items-center gap-1 text-gray-300 hover:opacity-80"
+          >
+            <FaGithub size={20} /> GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/nikv9"
+            target="_blank"
+            className="flex items-center gap-1 text-gray-300 hover:opacity-80"
+          >
+            <FaLinkedin size={20} /> LinkedIn
+          </a>
         </div>
       </div>
     </section>
