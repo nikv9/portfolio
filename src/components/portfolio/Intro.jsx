@@ -68,7 +68,7 @@ export default function Intro() {
           className="w-30 h-30 object-cover rounded-full mb-4 shadow-lg"
         />
 
-        <h2 className="text-3xl font-bold mb-3 text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-600">
+        <h2 className="text-3xl text-center font-bold mb-3 text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-600">
           Hi, I'm Nikhil Kumar
         </h2>
 
