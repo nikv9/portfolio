@@ -3,6 +3,7 @@ import Intro from "../components/portfolio/Intro";
 import Skills from "../components/portfolio/Skills";
 import Projects from "../components/portfolio/Projects";
 import Contact from "../components/portfolio/Contact";
+import Experience from "../components/portfolio/Experience";
 
 export default function Portfolio() {
   return (
@@ -11,6 +12,7 @@ export default function Portfolio() {
       <main className="p-6">
         <Intro />
         <Skills />
+        <Experience />
         <Projects />
         <Contact />
       </main>

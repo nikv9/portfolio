@@ -8,7 +8,7 @@ export default function Skills() {
         {skillsData.map((skill) => (
           <div
             key={skill.name}
-            className="p-2 bg-[#08131c] rounded-md shadow-sm hover:scale-105 transition cursor-pointer"
+            className="p-2 bg-[#08262c] rounded-md shadow-sm hover:scale-105 transition cursor-pointer"
           >
             <span className="text-sm">{skill.name}</span>
           </div>

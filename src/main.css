@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 body{
-  background: linear-gradient(180deg, #0a0226,#000000);
+  background-color: #041518;
   color: white;
   letter-spacing: .1rem;
   font-family: "Open Sans", sans-serif;
